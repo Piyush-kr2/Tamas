@@ -88,7 +88,10 @@ namespace HorrorHouse.Editor
             // Slabs
             CreateBox("Basement_FloorSlab", bm_fc.transform, -14.0f, 14.0f, -3.3f, -3.1f, -10.0f, 10.0f, greyboxMat);
             CreateBox("Ground_FloorSlab", gf_fc.transform, -14.0f, 14.0f, -0.1f, 0.1f, -10.0f, 10.0f, greyboxMat);
-            CreateBox("Second_FloorSlab", sf_fc.transform, -14.0f, 14.0f, 3.1f, 3.3f, -10.0f, 10.0f, greyboxMat);
+            CreateBox("Second_FloorSlab_Left", sf_fc.transform, -14.0f, -1.8f, 3.1f, 3.3f, -10.0f, 10.0f, greyboxMat);
+            CreateBox("Second_FloorSlab_Right", sf_fc.transform, 1.8f, 14.0f, 3.1f, 3.3f, -10.0f, 10.0f, greyboxMat);
+            CreateBox("Second_FloorSlab_Front", sf_fc.transform, -1.8f, 1.8f, 3.1f, 3.3f, -10.0f, -3.0f, greyboxMat);
+            CreateBox("Second_FloorSlab_Back", sf_fc.transform, -1.8f, 1.8f, 3.1f, 3.3f, 1.0f, 10.0f, greyboxMat);
             CreateBox("Roof_Slab", ext_roof.transform, -14.0f, 14.0f, 6.3f, 6.5f, -10.0f, 10.0f, greyboxMat);
 
             // Outer Walls
